@@ -61,6 +61,14 @@ body{
   margin-left: 30px;
 }
 
+.menu li:before{
+  content: '* ';
+  color: blue;
+  font-size: 50px;
+  line-height: 20px;
+  vertical-align: middle;
+}
+
 .logotipo{
   display: inline-block;
 }
@@ -161,4 +169,27 @@ body{
 
 .sexo{
   margin-top: 10px;
+}
+
+/*tablas*/
+table{
+  width: 100%;
+}
+
+th{
+  background: #273b47;
+  color: white;
+  padding: 10px 20px;
+  text-align: left;
+}
+td{
+  padding: 20px;
+}
+
+table, th, td{
+  border: 1px solid #273b47;
+  border-collapse: collapse;
+}
+.tabla{
+  margin: 30px 0px;
 }
